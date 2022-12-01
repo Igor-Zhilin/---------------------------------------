@@ -1,0 +1,44 @@
+.rasp{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.data{
+    
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.adres{
+    font-size: 30px;
+    text-align: center;
+}
+
+.karta{
+    padding-bottom:2%;
+    text-align: center;
+}
+.karta iframe{
+    width: 1000px;
+    height: 700px;
+}
+.bileti_ob{
+    font-size: 30px;
+    text-align: center;
+}
+.bileti_lgota{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+.lgota_perechislenie{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.lgota_mogty{
+    font-size: 20px;
+    text-align: center; 
+    padding-bottom: 2%;
+    
+}
