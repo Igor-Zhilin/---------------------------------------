@@ -2,6 +2,7 @@
     font-size: 45px;
     text-align: center;
     padding-bottom: 10px;
+    
 }
 .data{
     
@@ -12,6 +13,7 @@
 .adres{
     font-size: 30px;
     text-align: center;
+    
 }
 
 .karta{
@@ -25,16 +27,19 @@
 .bileti_ob{
     font-size: 30px;
     text-align: center;
+    
 }
 .bileti_lgota{
     font-size: 30px;
     text-align: center;
     font-style: italic;
+    
 }
 .lgota_perechislenie{
     font-size: 20px;
     text-align: center;
     font-style: italic;
+    
 }
 .lgota_mogty{
     font-size: 20px;

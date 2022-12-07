@@ -48,7 +48,8 @@ z-index: 2;
     position: absolute;
     top: 15px;
     left: 12px;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
    }
    .dws-menu > ul li a{
     display: block;
@@ -57,11 +58,11 @@ z-index: 2;
     background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: 15px 30px 15px 40px;
-    font-size: 20px;
+    font-size: 18px;
     color: #454547;
     text-decoration: none;
     text-transform:uppercase;
-    
+    font-family: 'Montserrat', sans-serif;
    }
    .dws-menu li a:hover{
     background: rgb(224,225,229); 
@@ -93,7 +94,14 @@ z-index: 2;
    .dws-menu li:hover > ul{
     display: block;
    }
-
-
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+   
+   
 
 
