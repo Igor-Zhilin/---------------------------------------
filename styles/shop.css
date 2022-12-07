@@ -1,30 +1,11 @@
-/* omyzee в главная */
-.shop_flex {
-    padding-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom:2%;
+.carousel-item{
+    height: 750px;
     
 }
-.book{
-max-width: 310px;
+.carousel-item img{
+    height: 750px;
+    
 }
-.book:hover{
-    border: 1px solid black;
-}
-.book_img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-width: 300px;
-padding-top: 5px;
-}
-.book_name{
-font-size: 20px;
-text-align: center;
-}
-.book_price{
-font-size: 20px;
-text-align: center;
+.carousel{
+    z-index: 1;
 }

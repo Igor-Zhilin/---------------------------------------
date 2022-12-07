@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./styles/otzivi.css">
     <link rel="stylesheet" href="./styles/shop.css">
     <link rel="stylesheet" href="./styles/vhod.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
@@ -49,7 +51,12 @@
           <li><a href="#" onclick="alerted()">телефон</a></li>
         </ul>
         </li>
-        <li><a href="./vhod.html"><i class="fa"></i>вход в аккаунт</a></li>
+        <li><a href="#"><i class="fa"></i>вход/регистрация</a>
+            <ul>
+              <li><a href="registr.html">Регистрация</a></li>
+              <li><a href="vhod.html">Вход</a></li>
+            </ul>
+            </li>
         <li><a href="#"><i class="fa"></i>партнеры</a>
             <ul>
             <li><a href="https://xn----7sbfxda1bemgjms0a5lh.xn--p1ai/">Цифровая-история</a></li>
@@ -61,84 +68,49 @@
       </ul>
     </nav>
   </header>
-  <div>
-    <p class="omyzee">Для покупки скажите код книги в музее</p>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./book-image/k10.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>800 руб.</h3>
+          <p>Ленинград. Война. Блокада. ПОБЕДНЫЕ ЗАЛПЫ. Материалы и исследования</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./book-image/k11.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>800 руб.</h3>
+          <p>Ленинград. Война. Блокада. СНЯТИЕ ОСАДЫ. Материалы и исследования</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./book-image/k12.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>800 руб.</h3>
+          <p>Ленинград. Война. Блокада. ГОРОД-ФРОНТ. Материалы и исследования</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Предыдущий</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Следующий</span>
+    </button>
   </div>
-<section class="shop_flex">
-    <div class="book">
-<img src="./book-image/book1.png" alt="" class="book_img">
-<p class="book_name">Финский излом. Финская интервенция в Карелии в 1918 - 1920 годах. Том. 1. Д. А. Попов ПРЕДЗАКАЗ</p>
-<p class="book_price">700 руб.</p>
-<p class="book_price">code: 73d88re</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book2.png" alt="" class="book_img">
-        <p class="book_name">Заслон на реке Тосне. Сборник документов и воспоминаний</p>
-        <p class="book_price">950 руб.</p>
-        <p class="book_price">code: 34j3kk</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book3.png" alt="" class="book_img">
-        <p class="book_name">Дыша одним дыханьем. Военные кинологи на фронте. Сборник</p>
-        <p class="book_price">350 руб.</p>
-        <p class="book_price">code: hg459d</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book4.png" alt="" class="book_img">
-        <p class="book_name">Драбкин, Иринчеев, Стаценко: Подвиг 2-й Ударной армии. Любанская наступательная операция</p>
-        <p class="book_price">950 руб.</p>
-        <p class="book_price">code: lk334gt</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book5.png" alt="" class="book_img">
-        <p class="book_name">Линкоры Ладоги. Забытая Дорога Жизни 1941-43. Н. Ю. Озаровский</p>
-        <p class="book_price">490 руб.</p>
-        <p class="book_price">code: kk34ht6</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book6.png" alt="" class="book_img">
-        <p class="book_name">"Нет, нет и нет, ещё не время..." Блокадный дневник Лены Гриц</p>
-        <p class="book_price">750 руб.</p>
-        <p class="book_price">code: lk38ytt</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book7.png" alt="" class="book_img">
-        <p class="book_name">Железный дождь над Ленинградом. Авианалёты и артобстрелы в документах МПВО НКВД и воспоминаниях очевидцев</p>
-        <p class="book_price">1500 руб.</p>
-        <p class="book_price">code: hrtj1500</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book8.png" alt="" class="book_img">
-        <p class="book_name">ДТрагедия Мясного Бора. Сборник воспоминаний участников и очевидцев Любанской операции</p>
-        <p class="book_price">850 руб.</p>
-        <p class="book_price">code: sdf345f</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book9.png" alt="" class="book_img">
-        <p class="book_name">Метеорологическое обслуживание противохимической защиты в Великой Отечественной войне 1941-1945 гг. Опыт и уроки Ленинградского фронта</p>
-        <p class="book_price">400 руб.</p>
-        <p class="book_price">code: lku802h</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book10.png" alt="" class="book_img">
-        <p class="book_name">Ленинград. Война. Блокада. ПОБЕДНЫЕ ЗАЛПЫ. Материалы и исследования</p>
-        <p class="book_price">800 руб.</p>
-        <p class="book_price">code: dflk34</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book11.png" alt="" class="book_img">
-        <p class="book_name">Ленинград. Война. Блокада. СНЯТИЕ ОСАДЫ. Материалы и исследования/p>
-        <p class="book_price">80 руб.</p>
-        <p class="book_price">code: sd347ek</p>
-    </div>
-    <div class="book">
-        <img src="./book-image/book12.png" alt="" class="book_img">
-        <p class="book_name">Ленинград. Война. Блокада. ГОРОД-ФРОНТ. Материалы и исследования</p>
-        <p class="book_price">800 руб.</p>
-        <p class="book_price">code: df90012</p>
-    </div>
-</section>
+<footer>
+    <p>Все материалы принадлежат Военному музею Карельского перешейка © 2022 | тема Bard от WP Royal.</p>
+  </footer>
 <script src="./js/data.js"></script>
 <script src="./js/java.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
