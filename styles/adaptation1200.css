@@ -1,10 +1,10 @@
-@media all and (max-width: 576px){
+@media all and (max-width: 1200px){
     .logo{
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding-top: 30px;
-        width: 300px;
+        width: 600px;
         
     }
    
@@ -17,7 +17,7 @@
         display: block;
         max-height: 0;
         transition: max-height 0.3s;
-        width: 300px;
+        width: 400px;
         text-align: center;
        }
        .dws-menu li>ul li ul{
@@ -28,7 +28,7 @@
    
        .omyzee{
         padding-top: 420px;
-        font-size: 20px;
+        font-size: 30px;
         text-align: justify;
         margin-left: 20px;
         margin-right: 20px;
@@ -37,7 +37,7 @@
        }
        
     .omyzee_img{
-        width: 200px;
+        width: 400px;
         padding: 2px;
        }
     .omyzee_img_flex{
@@ -47,7 +47,7 @@
         padding-bottom:2%;
        } 
        footer{
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         margin-top: auto;
         margin-bottom: auto;
@@ -58,18 +58,18 @@
     }
     .rasp{
         padding-top: 420px;
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
     }
     .data{
         
-        font-size: 30px;
+        font-size: 35px;
         text-align: center;
         padding-bottom: 2%;
     }
     .adres{
         padding-top: 420px;
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
     
@@ -78,8 +78,8 @@
         text-align: center;
     }
     .karta iframe{
-        width: 400px;
-        height: 400px;
+        width: 800px;
+        height: 700px;
     }
     .bileti_ob{
         padding-top: 420px;
@@ -107,7 +107,7 @@
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 5px;
-        width: 350px;
+        width: 600px;
     }
     .video{
         
@@ -115,14 +115,14 @@
         text-align: center;
     }
     .video iframe{
-        width: 400px;
+        width: 850px;
     }
     .maket_png_2{
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 15px;
-        width: 350px; 
+        width: 600px; 
     }
     .carousel{
         padding-top: 500px;
@@ -175,9 +175,9 @@
     .otzivi p {
         font-size: 25px;
     }
+    
     .registration-cssave{
         padding-top: 420px;
     }
+    
 }
-
-
