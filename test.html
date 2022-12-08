@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/bileti.css">
-    <link rel="stylesheet" href="./styles/ekspozitii.css">
-    <link rel="stylesheet" href="./styles/glavnaya.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/kontakti.css">
-    <link rel="stylesheet" href="./styles/omyzee.css">
-    <link rel="stylesheet" href="./styles/otzivi.css">
-    <link rel="stylesheet" href="./styles/shop.css">
-    <link rel="stylesheet" href="./styles/vhod.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/adaptation1200.css">
-    <link rel="stylesheet" href="./styles/adaptation.css">
+    <link rel="stylesheet" href="styles/bileti.css">
+    <link rel="stylesheet" href="styles/ekspozitii.css">
+    <link rel="stylesheet" href="styles/glavnaya.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/kontakti.css">
+    <link rel="stylesheet" href="styles/omyzee.css">
+    <link rel="stylesheet" href="styles/otzivi.css">
+    <link rel="stylesheet" href="styles/shop.css">
+    <link rel="stylesheet" href="styles/vhod.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/adaptation1200.css">
+    <link rel="stylesheet" href="styles/adaptation.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -72,24 +73,17 @@
   </header>
 <section>
   <div class="registration-cssave">
-    <form action="pysto.html">
+    
         <h3 class="text-center">Форма регистрации</h3>
-        <div class="form-group">
-            <input class="form-control item" type="text" name="username" maxlength="15" minlength="4" pattern="^[a-zA-Z0-9_.-]*$" id="username" placeholder="Логин" required>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Адрес электронной почты</label>
         </div>
-        <div class="form-group">
-            <input class="form-control item" type="password" name="Пароль" minlength="6" id="password" placeholder="Пароль" required>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Пароль">
+          <label for="floatingPassword">Пароль</label>
         </div>
-        <div class="form-group">
-            <input class="form-control item" type="email" name="email" id="email" placeholder="Email" required>
-        </div>
-        <div class="form-group">
-          
-        </div>
-        <div class="form-group">
-            <button class="btn btn-primary btn-block create-account" type="submit" >Создать аккаунт</button>
-        </div>
-    </form>
+        
 </div>
 </section>
 <footer>
@@ -97,5 +91,6 @@
 </footer>
 <script src="./js/data.js"></script>
 <script src="./js/java.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
