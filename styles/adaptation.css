@@ -25,7 +25,15 @@
         right: auto;
         top: auto;
        }
-   
+       
+       
+       
+       .dws-menu > ul li{
+        z-index: 5;
+       }
+       .dws-menu li > ul li{
+        z-index: 6;
+       }
        .omyzee{
         padding-top: 420px;
         font-size: 20px;
@@ -33,9 +41,9 @@
         margin-left: 20px;
         margin-right: 20px;
         text-indent: 30px; 
-        
        }
-      
+       
+
     .omyzee_img{
         width: 200px;
         padding: 2px;

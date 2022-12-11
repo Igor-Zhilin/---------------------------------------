@@ -1,11 +1,18 @@
 .carousel-item{
-    height: 750px;
+    height: 800px;
     
 }
 .carousel-item img{
-    height: 750px;
+    height: 800px;
     
 }
 .carousel{
-    z-index: 1;
+    z-index: 0;
+}
+.shop_photo{
+    width: 50%;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 20px;
+padding-top: 30px;
 }

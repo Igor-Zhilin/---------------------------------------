@@ -17,59 +17,83 @@
     <link rel="stylesheet" href="./styles/adaptation1200.css">
     <link rel="stylesheet" href="./styles/adaptation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <div>
-       <div class="fon">
-<div><img src="image/logo.jpg" alt=""  class="logo"></div>
-<header>
-    <nav class="dws-menu">
-      <ul>
-        <li><a href="./index.html"><i class="fa"></i>главная</a></li>
-        <li><a href="#"><i class="fa fa-cogs"></i>О музее</a>
-            <ul>
-                <li><a href="raspisanie.html">Расписание</a></li>
-                <li><a href="adres.html">Где находимся</a></li>
-                <li><a href="bileti.html">Билеты</a></li> 
+  <header>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4 vipod_menu">
+        <div class="dws-menu">
+          <ul>
+            <li><a href="index.html"><i class="fa"></i>главная</a></li>
+            <li><a href="#"><i class="fa fa-cogs"></i>О музее</a>
+                <ul>
+                    <li><a href="raspisanie.html">Расписание</a></li>
+                    <li><a href="adres.html">Где находимся</a></li>
+                    <li><a href="bileti.html">Билеты</a></li>
+                  </ul>
+            </li>
+            <li><a href="#"><i class="fa"></i>Экспозиции</a>
+              <ul>
+                <li><a href="grand_maket.html">Гранд - Макет города Выборга 1913 г.</a></li>
+                <li><a href="fin_kavaleria.html">Экспонаты из коллекции музея. Финская кавалерия</a></li>
+                <li><a href="podvig.html">Экспозиция «подвиг женщин на защите отчесетва»</a></li>
+                <li><a href="dioramma.html">Диорама «на той войне незнаменитой»</a></li>
+                <li><a href="listovka.html">Выставка пропагандских листовок времен воин 1939-40 гг. И 1941-44 гг.</a></li> 
               </ul>
-        </li>
-        <li><a href="#"><i class="fa"></i>Экспозиции</a>
-          <ul>
-            <li><a href="grand_maket.html">Гранд - Макет города Выборга 1913 г.</a></li>
-            <li><a href="fin_kavaleria.html">Экспонаты из коллекции музея. Финская кавалерия</a></li>
-            <li><a href="podvig.html">Экспозиция «подвиг женщин на защите отчесетва»</a></li>
-            <li><a href="dioramma.html">Диорама «на той войне незнаменитой»</a></li>
-            <li><a href="listovka.html">Выставка пропагандских листовок времен воин 1939-40 гг. И 1941-44 гг.</a></li>
-          </ul>
-        </li>
-        <li><a href="shop.html"><i class="fa"></i>магазин</a></li>
-        <li><a href="otzivi.html"><i class="fa"></i>отзывы</a></li>
-        <li><a href="#"><i class="fa"></i>контакты</a>
-        <ul>
-          <li><a href="https://vk.com/muzei_peresheika">vk</a></li>
-          <li><a href="https://www.youtube.com/channel/UCB0Msej1hYHItmhLe5W6uoQ">youtube</a></li>
-          <li><a href="adres.html">адрес</a></li>
-          <li><a href="#" onclick="alerted()">телефон</a></li>
-        </ul>
-        </li>
-        <li><a href="#"><i class="fa"></i>вход/регистрация</a>
-          <ul>
-            <li><a href="registr.html">Регистрация</a></li>
-            <li><a href="vhod.html">Вход</a></li>
-          </ul>
-          </li>
-        <li><a href="#"><i class="fa"></i>партнеры</a>
+            </li>
+            <li><a href="shop.html"><i class="fa"></i>магазин</a></li>
+            <li><a href="otzivi.html"><i class="fa"></i>отзывы</a></li>
+            <li><a href="#"><i class="fa"></i>контакты</a>
             <ul>
-            <li><a href="https://xn----7sbfxda1bemgjms0a5lh.xn--p1ai/">Цифровая-история</a></li>
-            <li><a href="https://oper.ru/">Все о творчестве Дмитрия "Гоблина" Пучкова</a></li>
-            <li><a href="https://d63.ru/">D63 Эксклюзивный масштабный модели</a></li>
-            <li><a href="https://vk.com/vyborg_news">Интересный Выборг</a></li>
-        </ul>
-        </li>
-      </ul>
+              <li><a href="https://vk.com/muzei_peresheika">vk</a></li>
+              <li><a href="https://www.youtube.com/channel/UCB0Msej1hYHItmhLe5W6uoQ">youtube</a></li>
+              <li><a href="adres.html">адрес</a></li>
+              <li><a href="#" onclick="alerted()">телефон</a></li>
+            </ul>
+            </li>
+            <li><a href="#"><i class="fa"></i>вход/регистрация</a>
+              <ul>
+                <li><a href="registr.html">Регистрация</a></li>
+                <li><a href="vhod.html">Вход</a></li>
+              </ul>
+              </li>
+            <li><a href="#"><i class="fa"></i>партнеры</a>
+                <ul>
+                <li><a href="https://xn----7sbfxda1bemgjms0a5lh.xn--p1ai/">Цифровая-история</a></li>
+                <li><a href="https://oper.ru/">Все о творчестве Дмитрия "Гоблина" Пучкова</a></li>
+                <li><a href="https://d63.ru/">D63 Эксклюзивный масштабный модели</a></li>
+                <li><a href="https://vk.com/vyborg_news">Интересный Выборг</a></li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar nav_menu">
+     
+      <div class="but">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="logo_glav_flex"><img src="./image/test3.png" alt="" class="head_glav_logo"></div>
+      <div class="qqq">
+      <div class="header_logo_flex">
+        <form action="" class="head_form"><button class="head_but">Вход</button></form>
+        <form action="" class="head_form"><button class="head_but">Регистрация</button></form>
+      </div>
+      <div class="header_logo_flex">
+        <div><a href=""><img src="./image/vk-logo.png" alt="" class="head_logo"></a></div>
+        <div><a href=""><img src="./image/youtube-logo.png" alt="" class="head_logo"></a></div>
+        <div><a href=""><img src="./image/map-logo.png" alt="" class="head_logo"></a></div>
+        <div><a href=""><img src="./image/email-logo.png" alt="" class="head_logo"></a></div>
+      </div>
+    </div>
     </nav>
-  </header>
+    </header>
+    <div class="fon">
 <section>
 <div class="text_rasp">
     <p class="rasp">Музей работает по зимнему <br> 
@@ -80,10 +104,77 @@
     <p id="data" class="data" style="color: red;"></p>
 </div>
 </section>
-<footer>
-  <p>Все материалы принадлежат Военному музею Карельского перешейка © 2022 | тема Bard от WP Royal.</p>
-</footer>
-  <script src="./js/data.js"></script>
-  <script src="./js/java.js"></script>
+<div class=" my-5">
+</div>
+  <footer
+          class=" text-lg-start text-black"
+          style="
+          background: rgb(201,201,201); /* Old browsers */
+          background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
+          background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Военный музей Карельского перешейка
+            </h6>
+            <p>
+              Военный музей Карельского перешейка
+              — это негосударственный музей открыт 26 июля 2013 г. 
+              Военным историком Баиром Иринчеевым на его собственные средства.
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <p>
+              <a class="text-black">Главная</a>
+            </p>
+            <p>
+              <a class="text-black">Расписание</a>
+            </p>
+            <p>
+              <a class="text-black">Где находимся</a>
+            </p>
+            <p>
+              <a class="text-black">Билеты</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Контакты</h6>
+            <p><i class="fas fa-home mr-3"></i> Выборг, Улица Крепостная, 26</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 7 904 856 32 34</p>
+          </div>
+        </div>
+      </section>
+      <hr class="my-3">
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              Все материалы принадлежат Военному музею Карельского перешейка © 2022 | тема Bard от WP Royal.    
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <div class="header_logo_flex">
+              <div><a href=""><img src="./image/vk-logo.png" alt="" class="head_logo"></a></div>
+              <div><a href=""><img src="./image/youtube-logo.png" alt="" class="head_logo"></a></div>
+              <div><a href=""><img src="./image/map-logo.png" alt="" class="head_logo"></a></div>
+              <div><a href=""><img src="./image/email-logo.png" alt="" class="head_logo"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+    <script src="./js/java.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./js/data.js"></script>
     </body>
 </html>

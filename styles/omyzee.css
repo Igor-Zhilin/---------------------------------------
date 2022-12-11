@@ -13,7 +13,7 @@
 .adres{
     font-size: 30px;
     text-align: center;
-    
+    padding-top: 20px;
 }
 
 .karta{
@@ -27,7 +27,7 @@
 .bileti_ob{
     font-size: 30px;
     text-align: center;
-    
+    padding-top: 20px;
 }
 .bileti_lgota{
     font-size: 30px;
@@ -44,6 +44,6 @@
 .lgota_mogty{
     font-size: 20px;
     text-align: center; 
-    padding-bottom: 2%;
+
     
 }

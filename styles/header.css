@@ -8,28 +8,70 @@ body {
    } 
 .fon{
     width: 80%; 
-   
      margin:auto;
      background-color: rgb(242,221,168);
      -webkit-box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
 -moz-box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
 box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
 }
-.logo{
+
+
+.header_logo_flex{
+    display: flex;
+  justify-content: flex-end; 
+  
+}
+
+ .qqq{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    width: 600px;
-    
+ }
+.head_but{
+font-size: 15px;
+border-radius: 20px;
+
+border-color: rgb(242,221,168);
+  color: black;
+  box-shadow: 0 0 40px 40px rgb(242,221,168) inset, 0 0 0 0 rgb(242,221,168);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.head_but:hover{
+    box-shadow: 0 0 10px 0 rgb(156, 122, 35) inset, 0 0 10px 4px rgb(156, 122, 35);
+}
+.head_logo{
+    width: 35px;
+   padding-right: 6px;
+}
+.head_form{
+    padding-right: 6px;
+    padding-bottom: 6px;
+}
+.vipod_menu{
+
 }
 header{
-    margin-top: 30px;
-   }
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head_glav_logo{
+    width: 250px;
+}
+.logo_glav_flex{
+    display: flex;
+    justify-content: center;
+}
+.but{
+    padding-left: 15px;
+}
+.nav_menu{
+    background-color: rgb(242,221,168);
+
+
+}
    .dws-menu *{
     margin: 0;
     padding: 0;
-z-index: 2;
    }
    .dws-menu ul,
    .dws-menu ol{
@@ -41,16 +83,9 @@ z-index: 2;
    }
    .dws-menu > ul li{
     position: relative;
-    
+    z-index: 2;
    }
-   
-   .dws-menu > ul li > a i.fa{
-    position: absolute;
-    top: 15px;
-    left: 12px;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-   }
+  
    .dws-menu > ul li a{
     display: block;
     background: rgb(201,201,201); /* Old browsers */
@@ -62,7 +97,7 @@ z-index: 2;
     color: #454547;
     text-decoration: none;
     text-transform:uppercase;
-    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
    }
    .dws-menu li a:hover{
     background: rgb(224,225,229); 
