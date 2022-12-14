@@ -15,11 +15,12 @@ body {
 box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
 }
 
-
 .header_logo_flex{
     display: flex;
   justify-content: flex-end; 
-  
+}
+.qqq{
+display: block;
 }
 
 .head_but{
@@ -43,13 +44,13 @@ border-color: rgb(242,221,168);
     padding-right: 6px;
     padding-bottom: 6px;
 }
-.vipod_menu{
 
-}
 header{
     width: 80%;
+    max-height: 1000px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(242,221,168);
 }
 .head_glav_logo{
     width: 250px;
@@ -65,6 +66,10 @@ header{
     background-color: rgb(242,221,168);
 
 
+}
+.dws-menu{
+    margin-left: auto;
+    margin-right: auto;
 }
    .dws-menu *{
     margin: 0;
