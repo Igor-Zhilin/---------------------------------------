@@ -9,12 +9,9 @@
     <link rel="stylesheet" href="./styles/ekspozitii.css">
     <link rel="stylesheet" href="./styles/glavnaya.css">
     <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/kontakti.css">
     <link rel="stylesheet" href="./styles/omyzee.css">
     <link rel="stylesheet" href="./styles/otzivi.css">
-    <link rel="stylesheet" href="./styles/shop.css">
     <link rel="stylesheet" href="./styles/vhod.css">
-    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/adaptation1200.css">
     <link rel="stylesheet" href="./styles/adaptation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
@@ -30,42 +27,59 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="dws-menu">
-            <ul>
-              <li><a href="index.html"><i class="fa"></i>главная</a></li>
-              <li><a href="#"><i class="fa fa-cogs"></i>О музее</a>
-                  <ul>
-                      <li><a href="raspisanie.html">Расписание</a></li>
-                      <li><a href="adres.html">Где находимся</a></li>
-                      <li><a href="bileti.html">Билеты</a></li>
-                    </ul>
-              </li>
-              <li><a href="#"><i class="fa"></i>Экспозиции</a>
-                <ul>
-                  <li><a href="grand_maket.html">Гранд - Макет города Выборга 1913 г.</a></li>
-                  <li><a href="fin_kavaleria.html">Экспонаты из коллекции музея. Финская кавалерия</a></li>
-                  <li><a href="podvig.html">Экспозиция «подвиг женщин на защите отчесетва»</a></li>
-                  <li><a href="dioramma.html">Диорама «на той войне незнаменитой»</a></li>
-                  <li><a href="listovka.html">Выставка пропагандских листовок времен воин 1939-40 гг. И 1941-44 гг.</a></li> 
-                </ul>
-              </li>
-              <li><a href="#"><i class="fa"></i>контакты</a>
-              <ul>
-                <li><a href="https://vk.com/muzei_peresheika">vk</a></li>
-                <li><a href="https://www.youtube.com/channel/UCB0Msej1hYHItmhLe5W6uoQ">youtube</a></li>
-                <li><a href="adres.html">адрес</a></li>
-                <li><a href="#" onclick="alerted()">телефон</a></li>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                О музее
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="raspisanie.html">Расписание</a></li>
+                <li><a class="dropdown-item" href="adres.html">Где находимся</a></li>
+                <li><a class="dropdown-item" href="bileti.html">Билеты</a></li>
               </ul>
-              </li>
-              <li><a href="#"><i class="fa"></i>партнеры</a>
-                  <ul>
-                  <li><a href="https://xn----7sbfxda1bemgjms0a5lh.xn--p1ai/">Цифровая-история</a></li>
-                  <li><a href="https://oper.ru/">Все о творчестве Дмитрия "Гоблина" Пучкова</a></li>
-                  <li><a href="https://d63.ru/">D63 Эксклюзивный масштабный модели</a></li>
-                  <li><a href="https://vk.com/vyborg_news">Интересный Выборг</a></li>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Экспозиции
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="grand_maket.html">Гранд - Макет города Выборга 1913 г.</a></li>
+                <li><a class="dropdown-item" href="fin_kavaleria.html">Экспонаты из коллекции музея. Финская кавалерия</a></li>
+                <li><a class="dropdown-item" href="podvig.html">Экспозиция «подвиг женщин на защите отчесетва</a></li>
+                <li><a class="dropdown-item" href="dioramma.html">Диорама «на той войне незнаменитой»</a></li>
+                <li><a class="dropdown-item" href="listovka.html">Выставка пропагандских листовок времен воин 1939-40 гг. И 1941-44 гг</a></li>
               </ul>
-              </li>
-            </ul>
-          </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Контакты
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://vk.com/muzei_peresheika">Vk</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCB0Msej1hYHItmhLe5W6uoQ">YouTube</a></li>
+                <li><a class="dropdown-item" href="adres.html">Адрес</a></li>
+                <li><a class="dropdown-item" href="#" onclick="alerted()">Телефон</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="otzivi.html">Отзывы</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Партнёры
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://xn----7sbfxda1bemgjms0a5lh.xn--p1ai/">Цифровая-история</a></li>
+                <li><a class="dropdown-item" href="https://oper.ru/">Все о творчестве Дмитрия "Гоблина" Пучкова</a></li>
+                <li><a class="dropdown-item" href="https://d63.ru/">D63 Эксклюзивный масштабный модели</a></li>
+                <li><a class="dropdown-item" href="https://vk.com/vyborg_news">Интересный Выбор</a></li>
+              </ul>
+            </li>
+          </ul>
+            </div>
         </div>
       </div>
     <div class="qqq">
@@ -83,8 +97,10 @@
 </nav>
     </header>
 <div class="fon">
-  <audio id="zvuk" src="/zv.mp3"></audio>
-            <p class="text10sec"></p>
+  <div>
+    <audio id="mp3" src=""></audio>
+    <p
+    class="text10sec"></p>
 <section>
 <div  class="omyzee">
 

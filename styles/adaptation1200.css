@@ -1,183 +1,240 @@
 @media all and (max-width: 1200px){
-    .logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 30px;
-        width: 600px;
-        
-    }
-   
-    .dws-menu *{
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 15px;
-    }
-       .dws-menu ul{
-        display: block;
-        max-height: 0;
-        transition: max-height 0.3s;
-        width: 400px;
-        text-align: center;
-       }
-       .dws-menu li>ul li ul{
-        position: absolute;
-        right: auto;
-        top: auto;
-       }
-   
-       .omyzee{
-        padding-top: 420px;
-        font-size: 30px;
-        text-align: justify;
-        margin-left: 20px;
-        margin-right: 20px;
-        text-indent: 30px; 
-       
-       }
-       
-    .omyzee_img{
-        width: 400px;
-        padding: 2px;
-       }
-    .omyzee_img_flex{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-bottom:2%;
-       } 
-       footer{
-        font-size: 20px;
-        text-align: center;
-        margin-top: auto;
-        margin-bottom: auto;
-        background: rgb(201,201,201); /* Old browsers */
-        background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    }
-    .rasp{
-        padding-top: 420px;
-        font-size: 30px;
-        text-align: center;
-    }
-    .data{
-        
-        font-size: 35px;
-        text-align: center;
-        padding-bottom: 2%;
-    }
-    .adres{
-        padding-top: 420px;
-        font-size: 25px;
-        text-align: center;
-    }
     
-    .karta{
-        padding-bottom:2%;
-        text-align: center;
-    }
-    .karta iframe{
-        width: 800px;
-        height: 700px;
-    }
+    /* Билеты */
     .bileti_ob{
-        padding-top: 420px;
         font-size: 30px;
         text-align: center;
+        padding-top: 20px;
     }
     .bileti_lgota{
         font-size: 30px;
         text-align: center;
         font-style: italic;
+        
     }
     .lgota_perechislenie{
         font-size: 20px;
         text-align: center;
         font-style: italic;
+        
     }
     .lgota_mogty{
         font-size: 20px;
         text-align: center; 
-        padding-bottom: 2%;
+    
         
     }
-    .maket_png{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 5px;
-        width: 600px;
-    }
-    .video{
-        
-        padding-bottom:2%;
-        text-align: center;
-    }
-    .video iframe{
-        width: 850px;
-    }
-    .maket_png_2{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 15px;
-        width: 600px; 
-    }
-    .carousel{
-        padding-top: 500px;
-    }
-    .carousel-item{
-        height: 750px;
-        
-    }
-    .carousel-item img{
-        height: 700px;
-        
-    }
-    .carousel{
-        z-index: 1;
-    }
-    .glav_otzivi{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 420px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .otzivi {
-        border: 2px solid #ccc;
-        background-color: #eee;
-        border-radius: 5px;
-        padding: 16px;
-        margin: 20px 0;
-        width: 1200px;
-        text-align: center;
-    }
+/* экспозиции */
+.maket_png{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    width: 800px;
+}
+.video{
+    padding-bottom:2%;
+    text-align: center;
+}
+.maket_png_2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    width: 800px; 
+}
+/* главная */
+.omyzee{
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-indent: 50px; 
+    padding-bottom: 10px;
+    padding-top: 20px;
+   }
+.omyzee_img{
+    width: 600px;
+    padding: 5px;
     
-    .otzivi::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
+   }
+   .glavnaya_photo{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+   }
+.omyzee_img_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom:2%;
+   }  
+   /* хедер и бади */
+   body {  
+    background-image: url(../image/fon.jpg);
+    background-position: left bottom;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Rubik', sans-serif;
+   } 
+.fon{
+    width: 80%; 
+     margin:auto;
+     background-color: rgb(242,221,168);
+     -webkit-box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
+-moz-box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
+box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
+}
+
+.header_logo_flex{
+    display: flex;
+  justify-content: flex-end; 
+}
+.qqq{
+display: block;
+}
+
+.head_but{
+font-size: 15px;
+border-radius: 20px;
+
+border-color: rgb(242,221,168);
+  color: black;
+  box-shadow: 0 0 40px 40px rgb(242,221,168) inset, 0 0 0 0 rgb(242,221,168);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.head_but:hover{
+    box-shadow: 0 0 10px 0 rgb(156, 122, 35) inset, 0 0 10px 4px rgb(156, 122, 35);
+}
+.head_logo{
+    width: 35px;
+   padding-right: 6px;
+}
+.head_form{
+    padding-right: 6px;
+    padding-bottom: 6px;
+}
+
+header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(242,221,168);
+}
+.head_glav_logo{
+    width: 250px;
+}
+.logo_glav_flex{
+    display: flex;
+    justify-content: center;
+}
+.nav_menu{
+    background-color: rgb(242,221,168);
+}
+.dws-menu{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
     
-    .otzivi img {
-        float: left;
-        margin-right: 20px;
-        border-radius: 50%;
-    }
+}
+.dws-menu a{
+    color: black;
+}
+.dws-menu li {
+    padding-left: 20px;
+}
+/* о музее */
+.omyzee{
+    font-size: 25px;
+}
+.rasp{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+.data{
     
-    .otzivi span {
-        font-size: 25px;
-        margin-right: 15px;
-    }
-    .otzivi p {
-        font-size: 25px;
-    }
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.adres{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.karta{
+    padding-bottom:2%;
+    text-align: center;
+}
+.karta iframe{
+    width: 1000px;
+    height: 700px;
+}
+/* отзывы */
+.glav_otzivi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
-    .registration-cssave{
-        padding-top: 420px;
-    }
-    
+}
+.otzivi {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 20px 0;
+    width: 1200px;
+    text-align: center;
+}
+
+.otzivi::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.otzivi img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.otzivi span {
+    font-size: 25px;
+    margin-right: 15px;
+}
+.otzivi p {
+    font-size: 25px;
+}
+/* регистрация и вход */
+.registr_zone{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+  .pole_registr{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .registr_button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  .registr_button:hover{
+    background-position: right center;
+  }
 }

@@ -4,7 +4,7 @@ let item = 0;
 let fun = setInterval(function () {
   item += 1;
   if (item === 11) {
-    document.getElementById("zvuk").play();
+    document.getElementById("mp3").play();
     item -= 10;
   }
   text10sec.innerHTML = item;
