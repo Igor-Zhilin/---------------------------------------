@@ -29,11 +29,17 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 5px;
-    width: 800px;
+    width: 350px;
 }
 .video{
     padding-bottom:2%;
-    text-align: center;
+    display: flex;
+  justify-content: center;
+}
+.video iframe{
+    width: 450px;
+    height: 300px;
+    
 }
 .maket_png_2{
     display: block;
@@ -78,7 +84,7 @@ margin-right: auto;
    font-family: 'Rubik', sans-serif;
    } 
 .fon{
-    width: 80%; 
+    width: 90%; 
      margin:auto;
      background-color: rgb(242,221,168);
      -webkit-box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
@@ -87,11 +93,15 @@ box-shadow: 0px 0px 11px 15px rgba(34, 60, 80, 0.26) inset;
 }
 
 .header_logo_flex{
-    display: flex;
-  justify-content: flex-end; 
+   
 }
 .qqq{
-display: block;
+display: flex;
+  justify-content: space-evenly;
+padding-top: 10px;
+
+margin-left: auto;
+margin-right: auto;
 }
 
 .head_but{
@@ -117,7 +127,7 @@ border-color: rgb(242,221,168);
 }
 
 header{
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(242,221,168);
@@ -170,8 +180,8 @@ header{
     text-align: center;
 }
 .karta iframe{
-    width: 1000px;
-    height: 700px;
+    width: 350px;
+    height: 200px;
 }
 /* отзывы */
 .glav_otzivi{

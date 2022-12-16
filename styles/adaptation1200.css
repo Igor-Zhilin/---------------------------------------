@@ -36,6 +36,9 @@
     padding-bottom:2%;
     text-align: center;
 }
+.video iframe{
+width: 800px;
+}
 .maket_png_2{
     display: block;
     margin-left: auto;
@@ -122,6 +125,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(242,221,168);
+
 }
 .head_glav_logo{
     width: 250px;
@@ -136,14 +140,19 @@ header{
 .dws-menu{
     margin-left: auto;
     margin-right: auto;
-    font-size: 25px;
+    font-size: 20px;
     
+}
+.adaptation{
+    display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .dws-menu a{
     color: black;
 }
 .dws-menu li {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 /* о музее */
 .omyzee{
@@ -171,8 +180,8 @@ header{
     text-align: center;
 }
 .karta iframe{
-    width: 1000px;
-    height: 700px;
+    width: 800px;
+    height: 550px;
 }
 /* отзывы */
 .glav_otzivi{
@@ -185,9 +194,9 @@ header{
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
-    padding: 16px;
+    padding: 15px;
     margin: 20px 0;
-    width: 1200px;
+    width: 1100px;
     text-align: center;
 }
 
