@@ -159,13 +159,14 @@ header{
     font-size: 25px;
 }
 .rasp{
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
     padding-top: 20px;
 }
+
 .data{
     
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     padding-bottom: 2%;
 }
@@ -180,7 +181,7 @@ header{
     text-align: center;
 }
 .karta iframe{
-    width: 800px;
+    max-width: 800px;
     height: 550px;
 }
 /* отзывы */
@@ -213,11 +214,11 @@ header{
 }
 
 .otzivi span {
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 15px;
 }
 .otzivi p {
-    font-size: 25px;
+    font-size: 20px;
 }
 /* регистрация и вход */
 .registr_zone{
