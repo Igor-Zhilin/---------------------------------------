@@ -1,25 +1,24 @@
-.omyzee{
-    font-size: 30px;
-    text-align: justify;
-    margin-left: 40px;
-    margin-right: 40px;
-    text-indent: 50px; 
-    padding-bottom: 10px;
-    padding-top: 20px;
-   }
-.omyzee_img{
-    width: 600px;
-    padding: 5px;
-    
-   }
-   .glavnaya_photo{
-width: 70%;
-margin-left: auto;
-margin-right: auto;
-   }
-.omyzee_img_flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom:2%;
-   }  
+.omyzee {
+  font-size: 30px;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-indent: 50px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.omyzee_img {
+  width: 600px;
+  padding: 5px;
+}
+.glavnaya_photo {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.omyzee_img_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2%;
+}
